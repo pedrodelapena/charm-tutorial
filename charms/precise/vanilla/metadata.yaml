@@ -1,0 +1,15 @@
+name: vanilla
+summary: Vanilla is an open-source, pluggable, multi-lingual forum.
+maintainer: Pedro de la Pena <Pedro.de.la.Pena@pedrolpfbf-pc>
+description: |
+  Vanilla is designed to deploy and grow small communities to scale.
+  This charm deploys Vanilla Forums as outlined by the Vanilla Forums
+  installation guide.
+tags:
+  - social
+provides:
+  website:
+    interface: http
+requires:
+  database:
+    interface: mysql
